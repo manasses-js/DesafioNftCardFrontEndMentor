@@ -1,0 +1,133 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(215, 31%, 14%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+#caixa-mae {
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 40%; 
+    margin-bottom: 5%;
+    width: 20%;
+    height: 520px;
+    padding-top: 18px;
+    background-color: hsl(214, 38%, 20%);
+    box-shadow: 5px 5px 8px 20px rgba(0, 0, 0, 0.151);
+}
+
+#nft {
+    border-radius: 10%;
+    color: white;
+    height: 280px;
+    text-align: center;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.titulo {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    margin-right: 140px;
+    padding-right: -50px;
+}
+
+.baixo {
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 0px;
+}
+
+.corpo {
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    padding-right: 90px;
+    color: turquoise;
+    font-weight: 700;
+    display: inline;
+    margin-left: -80px;
+
+}
+
+.corpo2 {
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    padding-top: 10px;
+    color: hsl(216, 33%, 66%);
+    font-weight: 500;
+    display: inline;
+    margin-right: -80px;
+    margin-left: 0px;
+
+}
+
+.image {
+    border-radius: 5%;
+    width: 100%;
+    position: relative;
+}
+
+.olho {
+    border-radius: 5%;
+    opacity: 0%;
+    margin-left: -281px;
+    width: 18%;
+    display: inline;
+    position: absolute;
+    padding: 115px;
+}
+
+#avatar {
+    text-align: left;
+    margin-top: 15px;
+    width: 35px;
+    margin-left: -80px;
+}
+
+.criador1 {
+    margin-top: 10px;
+    margin-left: -170px;
+}
+
+.criador2 {
+    font-family: 'Outfit', sans-serif;
+    color: hsl(216, 33%, 66%);
+    width: 50%;
+    margin-top: -30px;
+    margin-left: 10px;
+}
+
+.criador3 {
+    font-family: 'Outfit', sans-serif;
+    width: 38%;
+    padding-left: -200px;
+    margin-top: -17.2px;
+    margin-left: 120px;
+}
+
+.olho:hover {
+    opacity: 100%;
+    background-color: rgba(74, 212, 206, 0.5);
+    cursor: pointer;
+}
+
+.titulo:hover {
+    color: rgb(74, 212, 206);
+    cursor: pointer;
+}
+
+.criador3:hover {
+    color: rgb(74, 212, 206);
+    cursor: pointer;
+}
+
+.linha {
+    opacity: 15%;
+    margin-top: 22px;
+    margin-bottom: -10px;
+}
